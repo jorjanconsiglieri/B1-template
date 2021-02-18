@@ -137,8 +137,6 @@ article h2{
 }
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
-  color: black;
-          text-shadow:  -1px 1px 0 white;
 }
 
 article h2.accessibility{
@@ -152,18 +150,9 @@ article h2.rides{
 }
 article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
+  color: black;
+  text-shadow:  -1px 1px 0 white;
 }
-
-.emphasize {
-  border-style: solid;
-  border-color: #27AE60;
-  box-shadow:1px 1px 10px#27AE60 , 1px 1px 10px #27AE60;
-}
-
-.emphasize, h2.emphasizer{  
-
-}
-
 
 .product{
   margin-right: 1em;
@@ -194,7 +183,15 @@ button{
   font-weight: bold;
 }
 
-.emphasize
+button:hover{
+  cursor: pointer;
+}
+
+.emphasize {
+  border-style: solid;
+  border-color: #27AE60;
+  box-shadow:1px 1px 10px#27AE60 , 1px 1px 10px #27AE60;
+}
 
 .payment-option{
   height: 64px;
