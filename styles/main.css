@@ -137,10 +137,16 @@ article h2{
 }
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
+  color: black;
+          text-shadow:  -1px 1px 0 white;
 }
+
 article h2.accessibility{
   background-image: url('../images/accessible-eunice-stahl.jpg');
+  color: black;
+  text-shadow:  -1px 1px 0 white;
 }
+
 article h2.rides{
   background-image: url('../images/drone-drew-dau.jpg');
 }
